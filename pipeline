@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages
     {
-      stage (fetch logs)
+      stage ('fetch logs')
         {
          steps {
             script {
