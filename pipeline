@@ -1,13 +1,15 @@
 pipeline {
-agent any
-stages
-{
-stage (fetch logs)
-{
-steps {
-                script {
-                    sh 'git log --oneline'
-}
+    agent any
+    stages
+    {
+      stage (fetch logs)
+        {
+         steps {
+            script {
+                  sh 'git log --oneline'
+                   }
 
+              }
+         }
 }
 }
