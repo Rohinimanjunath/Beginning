@@ -1,3 +1,0 @@
-feature1 branch created after test.txt file craered in main, so feature1 now have README.md and test1.txt
-along with this newly craeting file, 
-this is test2.txt
